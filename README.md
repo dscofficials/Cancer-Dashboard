@@ -57,10 +57,10 @@ Cancer-Dashboard/
 - **Export Functionality**: Download complete dataset as CSV
 
 #### Tabbed Interface
-1. **📊 State Rankings**: Top states and detailed data table
-2. **📈 Trend Analysis**: Overall mortality trends and changes
-3. **🗺️ Regional Analysis**: Geographic distribution and regional statistics
-4. **🔍 State Comparison**: Side-by-side state trend analysis
+1. **State Rankings**: Top states and detailed data table
+2. **Trend Analysis**: Overall mortality trends and changes
+3. **Regional Analysis**: Geographic distribution and regional statistics
+4. **State Comparison**: Side-by-side state trend analysis
 
 ### 5. 🎨 Professional Design
 - **Dark Theme**: Modern, professional appearance
@@ -158,10 +158,10 @@ setup.bat
 5. **Provides Run Instructions**: Shows you exactly how to start the dashboard
 
 **Features of setup.bat:**
-- ✅ **Error Handling**: Stops if any step fails with clear error messages
-- ✅ **Progress Tracking**: Shows which step is currently executing ([1/4], [2/4], etc.)
-- ✅ **User Friendly**: Clear instructions and professional formatting
-- ✅ **Complete Instructions**: Provides final run commands and URL
+- **Error Handling**: Stops if any step fails with clear error messages
+- **Progress Tracking**: Shows which step is currently executing ([1/4], [2/4], etc.)
+- **User Friendly**: Clear instructions and professional formatting
+- **Complete Instructions**: Provides final run commands and URL
 
 ### 📋 Manual Setup (Alternative Method)
 
@@ -215,48 +215,6 @@ streamlit run app.py --server.port 8502
 - **Network Access**: Available on local network for sharing
 - **Default Browser**: Opens automatically when started
 
-### 🛠️ Troubleshooting Setup
-
-#### Common Issues & Solutions
-
-1. **Python Not Found**
-   ```
-   Error: 'python' is not recognized...
-   ```
-   **Solution**: Install Python and add to system PATH
-
-2. **Virtual Environment Creation Failed**
-   ```
-   Error: Failed to create virtual environment
-   ```
-   **Solution**: Check Python installation and permissions
-
-3. **Package Installation Failed**
-   ```
-   Error: Failed to install requirements
-   ```
-   **Solution**: Check internet connection and pip version
-
-4. **Permission Issues (Windows)**
-   ```
-   Error: Execution of scripts is disabled...
-   ```
-   **Solution**: The setup.bat automatically handles this with PowerShell execution policy
-
-#### 🔍 Verification Steps
-
-To verify successful installation:
-```bash
-# Check Python version
-python --version
-
-# Check installed packages
-pip list
-
-# Verify Streamlit installation
-streamlit version
-```
-
 ## 📈 Future Enhancements
 
 ### Planned Features
@@ -289,3 +247,6 @@ streamlit version
 - **Standardized Reporting**: Consistent visualization formats
 
 This dashboard represents a comprehensive solution for cancer mortality analysis in India, combining powerful data visualization with user-friendly design to support healthcare decision-making and research activities.
+
+---
+*Maintained by the Data Analytics Club.Department of Artificial Intelligence and Data Science, St. Joseph's College of Engineering* 
